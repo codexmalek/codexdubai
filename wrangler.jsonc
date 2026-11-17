@@ -1,6 +1,5 @@
 {
-  // Matches the Worker name Cloudflare already detected for this project.
-  "name": "codexdubaiom",
+  "name": "codexdubai",
   "compatibility_date": "2026-11-17",
   "workers_dev": true,
   "assets": {
