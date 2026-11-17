@@ -56,7 +56,7 @@ const evSlug = (s) => {
 // ---------- languages ----------
 // French is the reference; English and Arabic are rendered from the same templates with their own content,
 // then the remaining interface phrases are translated (src/i18n.mjs) and /fr links rewritten (localize()).
-const LANGS = ['fr', 'en', 'ar'];
+const LANGS = ['en', 'ar'];
 const LOCALE = {
   fr: { html: 'fr', hreflang: 'fr', og: 'fr_AE', date: 'fr-FR', dir: 'ltr', short: 'FR', name: 'Français' },
   en: { html: 'en', hreflang: 'en', og: 'en_US', date: 'en-GB', dir: 'ltr', short: 'EN', name: 'English' },
@@ -124,7 +124,7 @@ const orgSchema = {
       : { '@type': 'PostalAddress', streetAddress: o.street, ...(o.po ? { postOfficeBoxNumber: o.po.replace(/\D/g, '') } : {}), ...(o.postal ? { postalCode: o.postal } : {}), addressLocality: o.city, addressCountry: o.code },
   })),
   numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 15 },
-  knowsLanguage: ['fr', 'ar', 'en'],
+  knowsLanguage: ['en', 'ar'],
   knowsAbout: services.map((s) => s.name).concat(['Développement web', 'Flutter', 'SEO', 'ERP', 'SaaS']),
   contactPoint: [[site.phones[0], 'AE'], ...site.offices.filter((o) => o.phone).map((o) => [o.phone, o.code])].map(([p, area]) => ({
     '@type': 'ContactPoint', telephone: p.replace(/\s/g, ''), email: site.email,
@@ -343,7 +343,7 @@ const layout = ({ title, desc, path: p, body, schema = [], current, bodyClass = 
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${abs(p)}">
-${p.startsWith('/fr') ? LANGS.map((l) => `<link rel="alternate" hreflang="${LOCALE[l].hreflang}" href="${FR.site.url}__L:${l}__${tail(p)}">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${FR.site.url}__L:fr__${tail(p)}">` : ''}
+${p.startsWith('/fr') ? LANGS.map((l) => `<link rel="alternate" hreflang="${LOCALE[l].hreflang}" href="${FR.site.url}__L:${l}__${tail(p)}">`).join('\n') + `\n<link rel="alternate" hreflang="x-default" href="${FR.site.url}__L:en__${tail(p)}">` : ''}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#0b0b0c">
 <meta name="geo.region" content="AE-DU">
@@ -1580,7 +1580,7 @@ const written = [];
 const leftovers = {};
 for (const lang of LANGS) {
   for (const pg of render(lang)) {
-    if (lang !== 'fr' && pg.file === '404.html') continue; // one 404 page, in French
+    if (pg.file === '404.html' && lang !== 'en') continue; // one 404 page, in English
     let html = pg.html;
     if (pg.noindex) html = html.replace('index, follow, max-image-preview:large, max-snippet:-1', 'noindex, follow');
     html = localize(html, lang);
@@ -1595,60 +1595,59 @@ for (const lang of LANGS) {
 if (Object.keys(leftovers).length) console.warn('Untranslated French phrases:', JSON.stringify(leftovers, null, 1).slice(0, 4000));
 
 // Root: send visitors and crawlers to /fr (the host-level 301 in _redirects/.htaccess wins where supported).
-fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Codex — Agence de développement logiciel, web & mobile à Dubai</title><link rel="canonical" href="${abs('/fr')}"><meta http-equiv="refresh" content="0; url=/fr"><meta name="robots" content="noindex, follow"></head><body><a href="/fr">Codex — continuer vers le site</a></body></html>`);
+fs.writeFileSync(path.join(OUT, 'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Codex — Software studio in Dubai</title><link rel="canonical" href="${abs('/en')}"><meta http-equiv="refresh" content="0; url=/en"><meta name="robots" content="noindex, follow"></head><body><a href="/en">Codex — continue to the site</a></body></html>`);
 
 const indexed = written.filter((p) => !p.noindex);
-const altLinks = (frPath) => (frPath.startsWith('/fr') ? LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${LOCALE[l].hreflang}" href="${abs('/' + l + tail(frPath))}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${abs(frPath)}"/>` : '');
+const altLinks = (frPath) => (frPath.startsWith('/fr') ? LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${LOCALE[l].hreflang}" href="${abs('/' + l + tail(frPath))}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${abs('/en' + tail(frPath))}"/>` : '');
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${indexed.map((p) => `  <url><loc>${abs(p.path)}</loc><lastmod>${p.lastmod}</lastmod><priority>${tail(p.frPath) === '' ? '1.0' : tail(p.frPath).startsWith('/services/') ? '0.9' : '0.7'}</priority>${altLinks(p.frPath)}${p.images}</url>`).join('\n')}
 </urlset>
 `);
 
-// llms.txt: a plain summary for AI assistants and answer engines (GEO), from the French content.
-const { site, stats, homeFaq, services, projects, eventLinks } = FR;
-const { posts } = BLOG_FR;
-fs.writeFileSync(path.join(OUT, 'llms.txt'), `# Codex — Studio logiciel et agence IT à Dubai
+// llms.txt: a plain summary for AI assistants, in English. The public site is English and Arabic.
+const { site, stats, homeFaq, services, projects, eventLinks } = EN;
+const { posts } = BLOG_EN;
+fs.writeFileSync(path.join(OUT, 'llms.txt'), `# Codex — Software studio and IT agency in Dubai
 
-> Codex (${site.legalName}) est un studio logiciel et une agence IT indépendante basée à Dubai, Dubaï, fondée en ${site.founded}. Codex conçoit des logiciels sur mesure, des sites web, des applications mobiles et des solutions cloud, data et cybersécurité pour des entreprises en Dubaï et à l'international.
+> Codex (${site.legalName}) is an independent software studio and IT agency based in Dubai, founded in ${site.founded}. Codex designs custom software, websites, mobile apps and cloud, data and cybersecurity solutions for companies in Dubai and abroad.
 
-## Faits clés
-- Fondée en ${site.founded} à Dubai, Dubaï
-- Raison sociale : ${site.legalName}
-- Implantations : Dubai (siège), Doha (Qatar) et Marseille (France)
-- Siège : ${site.address.street}, ${site.address.locality}, ${site.address.region}, Dubaï
-- Bureau Qatar : ${site.offices[1].street}, ${site.offices[1].po}, Doha, Qatar · ${site.offices[1].phone}
-- Bureau France : ${site.offices[2].street}, ${site.offices[2].postal} Marseille, France · ${site.offices[2].phone}
+## Key facts
+- Founded in ${site.founded} in Dubai
+- Legal name: ${site.legalName}
+- Offices: Dubai (head office), Doha (Qatar) and Marseille (France)
+- Head office: ${site.address.street}, ${site.address.locality}, ${site.address.region}
+- Qatar office: ${site.offices[1].street}, ${site.offices[1].po}, Doha, Qatar · ${site.offices[1].phone}
+- France office: ${site.offices[2].street}, ${site.offices[2].postal} Marseille, France · ${site.offices[2].phone}
 - ${stats.map((s) => `${s.value}${s.suffix} ${s.label.toLowerCase()}`).join('\n- ')}
-- Langues de travail : français, arabe, anglais
-- Événements : ${site.events.map((n) => (eventLinks[n] ? `${n} (${eventLinks[n][0].url})` : n)).join(', ')}
-- Contact : ${site.email} · ${site.phones.join(' · ')} · WhatsApp +${site.whatsapp}
+- Site languages: English, Arabic
+- Events: ${site.events.map((n) => (eventLinks[n] ? `${n} (${eventLinks[n][0].url})` : n)).join(', ')}
+- Contact: ${site.email} · ${site.phones.join(' · ')} · WhatsApp +${site.whatsapp}
 
 ## Services
-${services.map((s) => `- [${s.name}](${abs('/fr/services/' + s.slug)}) : ${s.short}`).join('\n')}
+${services.map((s) => `- [${s.name}](${abs('/en/services/' + s.slug)}) : ${s.short}`).join('\n')}
 
-## Projets récents (sélection parmi 450+ projets livrés)
-${projects.map((p) => `- [${p.name}](${abs('/fr/realisations/' + p.slug)}) (${p.type}) : ${p.text}`).join('\n')}
+## Recent projects
+${projects.map((p) => `- [${p.name}](${abs('/en/realisations/' + p.slug)}) (${p.type}) : ${p.text}`).join('\n')}
 
 ## Blog
-${posts.map((p) => `- [${p.title}](${abs('/fr/blog/' + p.slug)}) : ${p.desc}`).join('\n')}
+${posts.map((p) => `- [${p.title}](${abs('/en/blog/' + p.slug)}) : ${p.desc}`).join('\n')}
 
-## Langues / Languages / اللغات
-- Français : ${abs('/fr')}
+## Languages
 - English: ${abs('/en')}
 - العربية: ${abs('/ar')}
 
 ## Pages
-- [Accueil](${abs('/fr')})
-- [Services](${abs('/fr/services')})
-- [Projets récents](${abs('/fr/realisations')})
-- [Blog](${abs('/fr/blog')})
-- [Salons & événements](${abs('/fr/evenements')})
-- [Attestations de bonne exécution](${abs('/fr/attestations-bonne-execution')})
-- [L'agence](${abs('/fr/agence')})
-- [Contact](${abs('/fr/contact')})
+- [Home](${abs('/en')})
+- [Services](${abs('/en/services')})
+- [Recent projects](${abs('/en/realisations')})
+- [Blog](${abs('/en/blog')})
+- [Events](${abs('/en/evenements')})
+- [Certificates of completion](${abs('/en/attestations-bonne-execution')})
+- [The agency](${abs('/en/agence')})
+- [Contact](${abs('/en/contact')})
 
-## Questions fréquentes
+## Frequently asked questions
 ${homeFaq.map((f) => `### ${f.q}\n${f.a}`).join('\n\n')}
 `);
 

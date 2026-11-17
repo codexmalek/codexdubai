@@ -1,5 +1,5 @@
 {
-  "name": "Codex — Studio logiciel à Alger",
+  "name": "Codex",
   "short_name": "Codex",
   "icons": [
     { "src": "/assets/img/codex-logo.png", "sizes": "512x512", "type": "image/png" },
@@ -8,5 +8,5 @@
   "theme_color": "#0b0b0c",
   "background_color": "#0b0b0c",
   "display": "standalone",
-  "start_url": "/fr"
+  "start_url": "/en"
 }

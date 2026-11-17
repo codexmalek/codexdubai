@@ -37,12 +37,19 @@ const HTML = [
   ['<span class="split" data-chars data-delay="0.1">Nous codons</span>', '<span class="split" data-chars data-delay="0.1">We code</span>', '<span class="split" data-chars data-delay="0.1">نبرمج</span>'],
   ['<span class="split" data-chars data-delay="0.25">l’avenir ', '<span class="split" data-chars data-delay="0.25">the world’s ', '<span class="split" data-chars data-delay="0.25">المستقبل '],
   ['<span class="split" data-chars data-delay="0.4">du monde.</span>', '<span class="split" data-chars data-delay="0.4">future.</span>', '<span class="split" data-chars data-delay="0.4">للعالم.</span>'],
+  ['<em>égarée</em>', '<em>gone missing</em>', '<em>اختفت</em>'],
 ];
 
 // Whole text nodes, attribute values and JSON-LD strings.
 const TEXT = [
   // navigation, header, footer
   ['Accueil', 'Home', 'الرئيسية'],
+  ['Page introuvable — Codex', 'Page not found — Codex', 'الصفحة غير موجودة — Codex'],
+  ['Cette page n’existe pas ou a été déplacée.', 'This page does not exist or has been moved.', 'هذه الصفحة غير موجودة أو تم نقلها.'],
+  ['Erreur 404', 'Error 404', 'خطأ 404'],
+  ['Cette page s’est', 'This page has', 'هذه الصفحة'],
+  ['Retour à l’accueil', 'Back to home', 'العودة إلى الرئيسية'],
+  ['Nous contacter', 'Contact us', 'اتصل بنا'],
   ['Agence', 'Agency', 'الوكالة'],
   ['L’agence', 'The agency', 'الوكالة'],
   ['Réalisations', 'Work', 'أعمالنا'],

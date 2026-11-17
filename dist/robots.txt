@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /fr/merci
+Disallow: /en/merci
 
 # AI assistants and answer engines are welcome (GEO)
 User-agent: GPTBot

@@ -1,17 +1,20 @@
 # Netlify / Cloudflare Pages
-/                     /fr                       301
-/index.php            /fr                       301
-/contact_us.php       /fr/contact               301
-/fr/                  /fr                       301
-/fr/services/         /fr/services              301
+/                     /en                       301
+/index.php            /en                       301
+/contact_us.php       /en/contact               301
+/fr                    /en                       301
+/fr/                   /en                       301
+/fr/*                  /en/:splat                301
+/en/                  /en                       301
+/en/services/         /en/services              301
 # Old service slugs → new pages. The full map is in .htaccess (the live host).
 /:lang/devis                         /:lang/contact                         301
-/devis                               /fr/contact                            301
+/devis                               /en/contact                            301
 /:lang/terms                         /:lang/contact                         301
 /:lang/privacy                       /:lang/contact                         301
 /:lang/legal/*                       /:lang/contact                         301
-/terms                               /fr/contact                            301
-/privacy                             /fr/contact                            301
+/terms                               /en/contact                            301
+/privacy                             /en/contact                            301
 /:lang/villes/alger                  /:lang/blog/agence-web-dubai-oran-constantine  301
 /:lang/villes/oran                   /:lang/blog/agence-web-dubai-oran-constantine  301
 /:lang/villes/constantine            /:lang/blog/agence-web-dubai-oran-constantine  301
