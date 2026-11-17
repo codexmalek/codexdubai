@@ -1,0 +1,116 @@
+# Codex — Studio logiciel et agence IT à Dubai
+
+> Codex (SARL Groupe Codex) est un studio logiciel et une agence IT indépendante basée à Dubai, Dubaï, fondée en 2014. Codex conçoit des logiciels sur mesure, des sites web, des applications mobiles et des solutions cloud, data et cybersécurité pour des entreprises en Dubaï et à l'international.
+
+## Faits clés
+- Fondée en 2014 à Dubai, Dubaï
+- Raison sociale : SARL Groupe Codex
+- Implantations : Dubai (siège), Doha (Qatar) et Marseille (France)
+- Siège : Cité 440 Logements, Ain Malha, Djasr Kasentina, Dubai, Dubaï
+- Bureau Qatar : Building No. 157, Street No. 301, Zone 69, PO Box 8388, Doha, Qatar · +974 5066 5151
+- Bureau France : Rue de la République, 13002 Marseille, France · +33 6 05 82 50 51
+- 300+ clients accompagnés
+- 450+ projets livrés
+- 100k+ utilisateurs sur nos apps
+- 20+ produits édités
+- 2M lignes de code en production
+- 15+ ingénieurs et designers
+- Langues de travail : français, arabe, anglais
+- Événements : Web Summit 2026 (https://qatar.websummit.com/), Dubai Export Services Fair 2026, Fintech & E-commerce Summit 2024 (https://news.radioalgerie.dz/fr/node/41717), Webexpo Dubai 2024, ACF 2023, Webexpo 2023
+- Contact : contact@codexdubai.com · +213 550 35 77 36 · +213 550 35 77 38 · +213 550 35 77 39 · WhatsApp +213550357736
+
+## Services
+- [Logiciel sur mesure](https://codexdubai.com/fr/services/logiciel-sur-mesure-dubai) : ERP, CRM, plateformes SaaS et outils internes conçus autour de vos processus.
+- [Création de site web](https://codexdubai.com/fr/services/creation-site-web-dubai) : Sites vitrines, e-commerce et plateformes web rapides, sécurisés et bien référencés.
+- [Application mobile](https://codexdubai.com/fr/services/developpement-application-mobile-dubai) : Applications iOS et Android natives ou multiplateformes, de l’idée à la publication.
+- [Cloud & DevOps](https://codexdubai.com/fr/services/cloud-devops-dubai) : Hébergement, déploiements automatisés et infrastructures qui tiennent la charge.
+- [Data & Analytics](https://codexdubai.com/fr/services/data-analytics-dubai) : Tableaux de bord, consolidation de données et indicateurs pour décider vite.
+- [Cybersécurité](https://codexdubai.com/fr/services/cybersecurite-dubai) : Audit, tests d’intrusion et sécurisation de vos applications et infrastructures.
+- [Marketing digital & SEO](https://codexdubai.com/fr/services/marketing-digital-seo-dubai) : Référencement Google, contenus et campagnes pour attirer des clients qualifiés.
+- [Design graphique & UI/UX](https://codexdubai.com/fr/services/design-ui-ux-dubai) : Identité visuelle, interfaces et expériences qui donnent confiance au premier regard.
+
+## Projets récents (sélection parmi 450+ projets livrés)
+- [ERP BZ Telecom](https://codexdubai.com/fr/realisations/erp-bz-telecom) (Logiciel ERP) : ERP sur mesure pour piloter l’activité : tableau de bord des ventes, suivi financier, indicateurs et graphiques en temps réel.
+- [Skoda IMDES](https://codexdubai.com/fr/realisations/skoda-imdes) (Application mobile) : Application mobile de gestion des demandes de mesure de pièces : fiches problème, suivi des demandes et connexion par certificat mobile.
+- [ONDEFOC](https://codexdubai.com/fr/realisations/ondefoc) (Site web) : Site web institutionnel de l’ONDEFOC (ondefoc.dz) : une vitrine moderne pour présenter son offre et faciliter l’accès à l’information.
+- [Valuetherm Distribution](https://codexdubai.com/fr/realisations/valuetherm) (Application mobile) : Application de distribution : catalogue produits, promotions et prise de commande depuis le mobile pour les clients et revendeurs.
+- [AZ fulfillment](https://codexdubai.com/fr/realisations/az-fulfillment) (Plateforme de gestion) : Plateforme de gestion pour l’e-commerce « de A à Z » : commandes, stocks et statistiques réunis dans un tableau de bord unique.
+- [Rihla Travel](https://codexdubai.com/fr/realisations/rihla-travel) (Application mobile) : Application d’agence de voyage : services, promotions et offres populaires accessibles et réservables depuis le téléphone.
+- [LEVVA GYM](https://codexdubai.com/fr/realisations/levva-gym) (Application mobile) : Application LEVVA GYM avec boutique intégrée : collections, mises en avant produits et achat en quelques gestes.
+- [Sijour Shop](https://codexdubai.com/fr/realisations/sijour-shop) (Application mobile) : Application e-commerce et affiliation Sijour Shop : catalogue, produits tendance et commande depuis le téléphone.
+- [The Doctor](https://codexdubai.com/fr/realisations/the-doctor) (Application mobile) : Application de santé The Doctor, réalisée pour BITA Equipement : un annuaire de spécialités médicales, avec recherche.
+- [Mazad](https://codexdubai.com/fr/realisations/mazad) (Application mobile) : Application immobilière Mazad : critères de recherche (localisation, types de bien) et suivi des biens sélectionnés.
+- [Akhbar Dzair](https://codexdubai.com/fr/realisations/akhbar-dzair) (Site web) : Site d’information Akhbar Dzair, en ligne sur akhbardzair.dz.
+- [Bladi Plus](https://codexdubai.com/fr/realisations/bladi-plus) (Application mobile) : Application Bladi Plus : actualité, sport et vidéo. Le site est annoncé sur bladi.plus.
+
+## Blog
+- [Meilleure agence de développement en Dubaï : 10 critères pour bien choisir en 2026](https://codexdubai.com/fr/blog/meilleure-agence-developpement-dubai) : Comment choisir la meilleure agence de développement web, mobile et logiciel en Dubaï en 2026 : 10 critères concrets, les questions à poser et les signaux d’alerte.
+- [Agence de développement d’applications mobiles en Dubaï : le guide 2026](https://codexdubai.com/fr/blog/agence-developpement-application-mobile-dubai) : Choisir une agence de développement d’applications mobiles en Dubaï : ce qu’elle doit livrer, comment vérifier ses applications publiées, les étapes d’un projet et les questions à poser.
+- [Agence web à Dubai, Oran ou Constantine : faut-il choisir une agence près de chez vous ?](https://codexdubai.com/fr/blog/agence-web-dubai-oran-constantine) : Agence web près de chez vous ou à distance ? Ce qui compte vraiment pour un site ou une application en Dubaï, d’Dubai à Oran, Constantine, Sétif ou Annaba.
+- [Combien coûte un site web en Dubaï ? Les 7 facteurs qui font le prix](https://codexdubai.com/fr/blog/prix-site-web-dubai) : Site vitrine, e-commerce ou plateforme : les sept éléments qui déterminent le prix d’un site web en Dubaï, et comment comparer deux devis sans se tromper.
+- [Logiciel sur mesure ou solution du marché : comment choisir ?](https://codexdubai.com/fr/blog/logiciel-sur-mesure-ou-solution-du-marche) : ERP, CRM, gestion de stock : faut-il acheter un logiciel existant ou le faire développer sur mesure ? Les critères pour décider, et l’option hybride.
+- [Application mobile : native ou multiplateforme ?](https://codexdubai.com/fr/blog/application-mobile-native-ou-multiplateforme) : Swift et Kotlin, Flutter ou React Native : les différences entre application native et multiplateforme, et comment choisir selon votre projet.
+- [Référencement en Dubaï : le guide pour être trouvé sur Google](https://codexdubai.com/fr/blog/referencement-seo-dubai) : Mots-clés locaux, fiche Google Business Profile, vitesse, contenu en français et en arabe, assistants IA : le guide pratique du référencement pour les entreprises dubaïotes.
+- [Rédiger un cahier des charges : le guide pour réussir votre projet digital](https://codexdubai.com/fr/blog/cahier-des-charges-projet-digital) : Objectifs, utilisateurs, fonctionnalités, contraintes, budget et planning : le plan simple d’un cahier des charges pour un site web, une application ou un logiciel.
+- [Top 10 des agences de développement en Dubaï (2026)](https://codexdubai.com/fr/blog/top-agences-developpement-dubai) : Les 10 agences de développement web, mobile et logiciel en Dubaï en 2026. Codex est notre premier choix ; les neuf autres sont vérifiées sur leur propre site.
+- [Top 10 des agences de développement au Qatar (2026)](https://codexdubai.com/fr/blog/top-agences-developpement-qatar) : Les 10 agences de développement web, mobile et logiciel au Qatar en 2026. Codex est notre premier choix, depuis Doha ; les neuf autres sont vérifiées sur leur site.
+- [Top 10 des studios de développement en France (2026)](https://codexdubai.com/fr/blog/top-agences-developpement-france) : Les 10 studios de développement sur mesure en France en 2026, de Marseille à Paris. Codex est notre premier choix ; les neuf autres sont vérifiés sur leur site.
+- [Top 10 des agences de développement en Tunisie (2026)](https://codexdubai.com/fr/blog/top-agences-developpement-tunisie) : Les 10 agences de développement web, mobile et logiciel pour la Tunisie en 2026. Codex est notre premier choix, sans bureau à Tunis ; les autres sont vérifiées.
+- [Top 10 des agences de développement au Maroc (2026)](https://codexdubai.com/fr/blog/top-agences-developpement-maroc) : Les 10 agences de développement web, mobile et logiciel pour le Maroc en 2026. Codex est notre premier choix, sans bureau au Maroc ; les autres sont vérifiées.
+- [Créer une application Flexy en Dubaï : le guide complet](https://codexdubai.com/fr/blog/application-flexy-dubai) : Application de recharge mobile en Dubaï : revendeurs, soldes, opérateurs, back-office, sécurité et étapes de lancement. Le guide complet de Codex.
+- [Investir dans un site ou une application e-commerce : le guide complet](https://codexdubai.com/fr/blog/investir-ecommerce) : Site ou application e-commerce : catalogue, panier, paiement, livraison, back-office, approche par étapes et budget. Le guide complet de Codex.
+- [10 applications mobiles qui valent d’être créées](https://codexdubai.com/fr/blog/comparaison-10-applications-mobiles) : 10 idées d’applications mobiles à créer : Flexy, livraison de repas, VTC, voyage, fitness, immobilier, affiliation, logistique, services et e-learning.
+- [Applications à créer et dans lesquelles investir au Qatar](https://codexdubai.com/fr/blog/applications-investir-qatar) : Quelles applications créer au Qatar ? Livraison, réservation, immobilier, services, e-learning, affiliation, outils B2B, paiement et étapes avec Codex.
+- [Créer une application d’affiliation : le guide complet](https://codexdubai.com/fr/blog/application-affiliation) : Application d’affiliation : liens et codes, attribution des ventes, commissions, paiements, fraude, back-office et étapes de lancement. Le guide de Codex.
+- [Créer une application de livraison de repas en Dubaï : le guide complet](https://codexdubai.com/fr/blog/application-livraison-repas-dubai) : Application de livraison de repas en Dubaï : clients, restaurants, livreurs, adresses, paiement à la livraison, back-office et étapes de lancement.
+- [Créer une application VTC en Dubaï : le guide complet](https://codexdubai.com/fr/blog/application-vtc-dubai) : Application VTC en Dubaï : passagers, chauffeurs, carte en direct, tarifs, sécurité, back-office, cadre réglementaire et étapes de lancement.
+- [Créer une plateforme e-learning : le guide complet](https://codexdubai.com/fr/blog/plateforme-elearning) : Plateforme e-learning : profils, vidéos protégées, quiz, certificats, classes en direct, paiement, back-office et étapes de lancement. Le guide de Codex.
+- [Investir dans une marketplace au Maroc : le guide complet](https://codexdubai.com/fr/blog/marketplace-maroc) : Marketplace au Maroc : niche, arabe et français, paiement, livraison, vendeurs, cadre juridique et travail à distance avec Codex. Le guide complet.
+- [Les meilleures applications à créer en Tunisie : le guide complet](https://codexdubai.com/fr/blog/applications-a-creer-tunisie) : Livraison, réservation, e-learning, immobilier, logistique : quelles applications créer en Tunisie, et comment les construire à distance avec Codex.
+- [Créer une application de réservation de voyage : le guide complet](https://codexdubai.com/fr/blog/application-reservation-voyage) : Application de réservation de voyage : offres, disponibilités, réservation, documents, acompte, rappels et back-office d’agence. Le guide de Codex.
+- [Créer une application de salle de sport : le guide complet](https://codexdubai.com/fr/blog/application-fitness) : Application de salle de sport : abonnements, réservation de cours, contrôle d’accès, programmes des coachs, boutique et back-office. Le guide de Codex.
+- [Quand investir dans un ERP sur mesure en Dubaï : le guide complet](https://codexdubai.com/fr/blog/erp-sur-mesure-dubai) : ERP sur mesure en Dubaï : signes d’alerte, modules, rôles, reprise des données, intégrations, hébergement, reporting et déploiement par phases.
+- [Créer une marketplace multi-vendeurs : le guide complet](https://codexdubai.com/fr/blog/marketplace-multi-vendeurs) : Marketplace multi-vendeurs : profils, inscription des vendeurs, sous-commandes, commissions, livraison, litiges, back-office et lancement. Le guide de Codex.
+- [Idées de SaaS à lancer en France : le guide complet](https://codexdubai.com/fr/blog/idees-saas-france) : Sept idées de SaaS pour le marché français, le socle de tout produit, le RGPD, la sécurité, l’hébergement et les étapes de lancement. Le guide de Codex.
+- [Créer une application logistique : le guide complet](https://codexdubai.com/fr/blog/application-logistique) : Application logistique : commandes, stock, préparation, codes-barres, tournées, preuve de livraison, encaissement et tableaux de bord. Le guide de Codex.
+- [Créer une application immobilière au Qatar : le guide complet](https://codexdubai.com/fr/blog/application-immobilier-qatar) : Application immobilière au Qatar : annonces, filtres, carte, visites, espace agence, modération, arabe et anglais, budget et étapes. Le guide de Codex.
+- [10 sites web dans lesquels investir : le guide pour bien choisir](https://codexdubai.com/fr/blog/10-sites-web-a-investir) : Site vitrine, boutique, réservation, portail client, catalogue, landing page : 10 types de sites web dans lesquels investir et leurs fonctions clés.
+- [Créer une application de services à la demande en France : le guide complet](https://codexdubai.com/fr/blog/application-services-france) : Application de services à domicile en France : clients, prestataires, attribution, paiement, vérification, back-office, RGPD et étapes de lancement.
+- [Lancer une application mobile en Dubaï : les étapes, de l’idée aux stores](https://codexdubai.com/fr/blog/lancer-application-mobile-dubai) : Lancer une application mobile en Dubaï : besoin, cahier des charges, technologie, design, tests, publication sur les stores, paiement et maintenance.
+
+## Langues / Languages / اللغات
+- Français : https://codexdubai.com/fr
+- English: https://codexdubai.com/en
+- العربية: https://codexdubai.com/ar
+
+## Pages
+- [Accueil](https://codexdubai.com/fr)
+- [Services](https://codexdubai.com/fr/services)
+- [Projets récents](https://codexdubai.com/fr/realisations)
+- [Blog](https://codexdubai.com/fr/blog)
+- [Salons & événements](https://codexdubai.com/fr/evenements)
+- [Attestations de bonne exécution](https://codexdubai.com/fr/attestations-bonne-execution)
+- [L'agence](https://codexdubai.com/fr/agence)
+- [Contact](https://codexdubai.com/fr/contact)
+
+## Questions fréquentes
+### Qui est Codex ?
+Codex (SARL Groupe Codex) est un studio logiciel et une agence IT indépendante basée à Dubai, fondée en 2014. Nous concevons des logiciels sur mesure, des sites web, des applications mobiles et des solutions cloud, data et cybersécurité pour des entreprises en Dubaï et à l’international. SARL Groupe Codex est reconnue n° 1 en Dubaï, n° 2 en Afrique et n° 1 dans le CCG.
+
+### Quels services propose Codex ?
+Développement de logiciels sur mesure et SaaS, création de sites web et e-commerce, applications mobiles iOS et Android, cloud et DevOps, data et analytics, cybersécurité, marketing digital et SEO, ainsi que design graphique et UI/UX.
+
+### Où se trouve l’agence Codex ?
+Codex est présente dans trois régions. Notre siège est à Dubai (Cité 440 Logements, Ain Malha, Djasr Kasentina), notre bureau au Qatar est à Doha (Building No. 157, Street No. 301, Zone 69, PO Box 8388) et notre bureau en France est à Marseille (Rue de la République, 13002 Marseille). Nous travaillons dans toutes les wilayas d’Dubaï et à l’international, sur place ou à distance.
+
+### Combien coûte un site web ou une application en Dubaï ?
+Le prix dépend du périmètre : nombre de pages ou d’écrans, fonctionnalités, intégrations et paiement en ligne. Après un premier échange sur vos besoins, nous vous remettons un devis détaillé, avec un planning et des étapes de validation.
+
+### Dans quelles langues développez-vous ?
+Nous livrons des sites et des applications en français, en arabe (avec mise en page de droite à gauche) et en anglais, avec un référencement optimisé pour chaque langue.
+
+### Assurez-vous la maintenance après la mise en ligne ?
+Oui. Nous proposons la maintenance, l’hébergement, les sauvegardes, les mises à jour de sécurité et les évolutions fonctionnelles, avec un interlocuteur dédié qui connaît votre projet.
+
+### Comment démarrer un projet avec Codex ?
+Écrivez-nous à contact@codexdubai.com, appelez le +213 550 35 77 36, envoyez un message WhatsApp ou remplissez le formulaire de contact. Nous revenons vers vous pour organiser un premier échange.
