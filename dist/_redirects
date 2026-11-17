@@ -1,5 +1,5 @@
 # Netlify / Cloudflare Pages
-/                     /fr                       301!
+/                     /fr                       301
 /index.php            /fr                       301
 /contact_us.php       /fr/contact               301
 /fr/                  /fr                       301
